@@ -1,0 +1,51 @@
+body {
+    width: 800px;
+    padding: auto;
+    margin: auto;
+    color: #009933;
+    font-size: 14px;
+    font-family: Arial; 
+}
+
+p {
+    letter-spacing: 10px;
+}
+
+.kursiv{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.three {
+    font-family: Comic Sans MS ;
+    font-size: 25pt;
+    text-indent: 50px;
+}
+
+.rich{
+    font-family: Arial;
+    font-size: 15pt;
+    font-weight: bold;
+    font-style: italic;
+    color: orange;
+    line-height: 25pt;
+}
+
+.perenos{
+    white-space: nowrap;   
+}
+
+.red{
+    color: #FF0000;
+    text-transform: uppercase;
+}
+
+.last{
+    font-family: Courier;
+    text-transform: uppercase;
+    letter-spacing: 200%;
+    line-height: 2;
+    text-decoration: underline;
+    text-indent: 2cm;
+
+}
