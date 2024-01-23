@@ -1,7 +1,4 @@
 body {
-    width: 800px;
-    padding: auto;
-    margin: auto;
     color: #009933;
     font-size: 14px;
     font-family: Arial; 
@@ -42,10 +39,24 @@ p {
 
 .last{
     font-family: Courier;
+    font-size: 12pt;
     text-transform: uppercase;
     letter-spacing: 200%;
     line-height: 2;
     text-decoration: underline;
     text-indent: 2cm;
+}
 
+.type1{
+    font-size: 20pt;
+    font-family: 'Times New Roman';
+    text-indent: 6cm;
+    color:aqua;
+}
+
+.type2{
+    font-family: Georgia;
+    font-size: medium;
+    color: blanchedalmond;
+    text-transform: capitalize;
 }
