@@ -1,14 +1,29 @@
 table{
-    border: 5px solid rgb(209, 209, 209);
-    border-collapse: collapse;
+    margin: auto;
+    border: 5px outset lightgray;
 }
 caption {
+    padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size:20px;
-    font-weight: bold;
+    font-weight: bolder;
     color:rgb(148, 9, 9);
 }
 th{
+    padding: 3px;
+    border: 1px inset gray;
+    background-color: rgb(212, 212, 212);
     color:rgb(148, 9, 9);
 }
 
+td{
+    padding: 3px;
+    border: 1px inset gray;
+    font-weight: bold;
+}
+
+body {
+
+    background: url(y.jpg);
+
+}

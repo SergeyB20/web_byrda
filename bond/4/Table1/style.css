@@ -1,0 +1,33 @@
+table{
+    margin: auto;
+    border: 5px outset white;
+    /*border-spacing: 7px;
+*/
+}
+
+caption {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: bolder;
+    color:rgb(148, 9, 9);
+
+}
+
+.main{
+    background-color: rgb(160, 113, 113);
+    font-weight: bolder;
+    color: rgb(251, 214, 220);
+}
+
+.bolde{
+    font-weight: bolder;
+}
+
+td{
+    padding: 3px;
+    border:  1px inset  white;
+}
+body{
+    background-color: rgb(255, 224, 229);
+}
