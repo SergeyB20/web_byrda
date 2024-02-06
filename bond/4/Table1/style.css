@@ -18,6 +18,7 @@ caption {
     background-color: rgb(160, 113, 113);
     font-weight: bolder;
     color: rgb(251, 214, 220);
+    text-align: center;
 }
 
 .bolde{
@@ -27,6 +28,7 @@ caption {
 td{
     padding: 3px;
     border:  1px inset  white;
+    
 }
 body{
     background-color: rgb(255, 224, 229);

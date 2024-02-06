@@ -11,19 +11,19 @@ caption {
 }
 th{
     padding: 3px;
-    border: 1px inset gray;
+    border: 1.5px inset lightgray;
     background-color: rgb(212, 212, 212);
     color:rgb(148, 9, 9);
 }
 
 td{
     padding: 3px;
-    border: 1px inset gray;
+    border: 1.5px inset lightgray;
     font-weight: bold;
 }
 
 body {
-
     background: url(y.jpg);
-
 }
+
+
