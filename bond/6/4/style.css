@@ -1,5 +1,6 @@
 .menu2 {list-style-type: none; width: 200px;
-	position: relative;
+	
+position: relative;
 }
 
 .menu2 li{margin-bottom: 5px;
@@ -27,19 +28,20 @@
 .menu2 li a:hover{
 	background-color: white ;
 	color: blue;
+
 }
 
 li:hover{
 	background-color: white ;
 	color: blue;	
 }
-img{
+.image{
 	position: absolute;
 	width: 18px;
 	vertical-align: bottom;
 	right: 10px;
+	display: none;
 }
-
-li,img :hover{
-	visibility: visible;
+li:hover .image{
+	display: inline-block;
 }

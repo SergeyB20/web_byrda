@@ -1,0 +1,21 @@
+.menu5 {list-style-type: none;float: left;word-wrap: break-all;}
+.menu5 li{margin-right: 30px; 
+	float: left;
+	padding: 4px;
+	color: rgb(57, 205, 255); 
+	font-weight: bold;
+	word-break: break-all;}
+
+.menu5 :hover{
+	color: red;
+}
+
+img{
+	width: 85px;
+	align-content: center;
+
+}
+
+li{
+	width: 90px;
+}
