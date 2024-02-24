@@ -1,0 +1,155 @@
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.clearfix{
+	clear: both;
+}
+.menu1 {
+	color: blue; 
+	list-style-position: inside;}
+.menu1 a:link, .menu1 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	}
+.menu1 a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.menu2 {list-style-type: none; width: 200px}
+.menu2 li{margin-bottom: 5px;}
+.menu2 a:link, .menu2 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid blue;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+}
+.menu2 a:hover{
+font-weight: bold
+}
+
+.menu3 {list-style-type: none; width: 200px}
+.menu3 li{margin-bottom: 5px;}
+.menu3 a:link, .menu3 a:visited{
+	text-decoration: none;
+	background-color: black;
+	font: 13px Arial;
+
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+    color: white;
+}
+.menu3 a:hover{
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.menu4 {list-style-type: none; width: 200px}
+.menu4 li{margin-bottom: 5px;}
+.menu4 a:link, .menu4 a:visited{
+	text-decoration: none;
+	background-color: blue;
+	font: 13px Arial;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+    color: white;
+}
+.menu4 a:hover{
+    font-weight: bold;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}
+
+.menu5 {list-style-type: none;}
+.menu5 li{margin-right: 4px; float: left;}
+.menu5 a:link, .menu5 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu5 a:hover, .menu5 a.active{
+	color: red;
+	
+}
+
+.menu6 {list-style-type: none;}
+.menu6 li{margin-right: 4px; float: left;}
+.menu6 a:link, .menu6 a:visited{
+	text-decoration: none;
+	color: blue;
+	font: 13px Arial;
+	border: 1px solid #1A31A2;
+	padding: 5px;
+}
+.menu6 a:hover, .menu6 a.active{
+	color: whitesmoke;
+    background-color: black;
+}
+
+.menu7 {list-style-type: none;}
+.menu7 li{margin-right: 4px; float: left;}
+.menu7 a:link, .menu7 a:visited{
+	text-decoration: none;
+	color: gray;
+	font: 13px Arial;
+	padding: 5px;
+}
+.menu7 a:hover, .menu7 a.active{
+	color: skyblue;
+}
+
+.menu8 {list-style-type: none;}
+.menu8 li{float: left;}
+.menu8 a:link, .menu8 a:visited{
+	text-decoration: none;
+    background-color: orange;
+	color: white;
+	font: 24px Arial;
+	padding: 15px 15px;
+}
+.menu8 a:hover, .menu8 a.active{
+	color: white;
+    background-color: red;
+}
+
+
+.calendar-wrapper {
+	max-width: 280px;
+}
+.calendar {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+}
+
+.first-day {
+	grid-column-start: 6;
+}
+.day-name {
+	background: #eee;
+}
+.calendar-wrapper ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.calendar-wrapper li {
+	padding: 2px;
+}
+.calendar-wrapper li:hover {
+	color: red;
+	font-weight: bolder
+}
