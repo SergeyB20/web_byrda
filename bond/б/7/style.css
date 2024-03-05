@@ -1,0 +1,39 @@
+.menu5 {list-style-type: none;float: left;word-wrap: break-all;text-align: center;}
+.menu5 li{margin-right: 30px; 
+	float: left;
+	padding: 4px;
+	color:gray; 
+	font-weight: bold;
+	opacity: 40%;
+}
+
+.menu5 :hover{
+	color: skyblue;
+	opacity: 1;
+
+}
+.menu5 :hover img.fir{
+	color: skyblue;
+	opacity: 0;
+
+}
+
+
+
+img.fir{
+	position: absolute;
+	width: 85px;
+	align-content: center;
+}
+img.sec{
+	width: 85px;
+	align-content: center;
+}
+
+
+li{
+	width: 90px;
+}
+
+
+  

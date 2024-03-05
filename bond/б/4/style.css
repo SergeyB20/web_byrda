@@ -1,0 +1,47 @@
+.menu2 {list-style-type: none; width: 200px;
+	
+position: relative;
+}
+
+.menu2 li{margin-bottom: 5px;
+	background-color: rgb(30, 131, 255);
+	border: 2px solid rgb(25, 90, 154);
+	padding: 4px;
+	color: white; 
+	list-style-position: inside;
+	font-weight: bold;	
+	padding: 7px;
+}
+
+
+.menu2 a:link, .menu2 a:visited{
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	border: 1px solid white;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+
+}
+
+.menu2 li a:hover{
+	background-color: white ;
+	color: blue;
+
+}
+
+li:hover{
+	background-color: white ;
+	color: blue;	
+}
+.image{
+	position: absolute;
+	width: 18px;
+	vertical-align: bottom;
+	right: 10px;
+	display: none;
+}
+li:hover .image{
+	display: inline-block;
+}
