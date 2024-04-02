@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    width: 200px;
+    border: 1px solid black;
+}

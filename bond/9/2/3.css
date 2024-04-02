@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.item1, .item2, .item3 {
+    border: 1px solid black;
+    flex-basis: 300px;
+}
+
